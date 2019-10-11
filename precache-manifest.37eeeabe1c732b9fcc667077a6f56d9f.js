@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4bc1ee307db9640bb325ae77ce32e0cf",
+    "revision": "49001c67fa6294bdc3a9a48e149d9ffb",
     "url": "/reactbookmarkapp/index.html"
   },
   {
-    "revision": "da6bee045c0fa9860c53",
+    "revision": "2fd7267f1e3bc5fda11c",
     "url": "/reactbookmarkapp/static/css/main.b9d6ebbc.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reactbookmarkapp/static/js/2.ed23b9cf.chunk.js"
   },
   {
-    "revision": "da6bee045c0fa9860c53",
-    "url": "/reactbookmarkapp/static/js/main.99e2add7.chunk.js"
+    "revision": "2fd7267f1e3bc5fda11c",
+    "url": "/reactbookmarkapp/static/js/main.50cd949a.chunk.js"
   },
   {
     "revision": "f8d6c31a26399f5b6d19",

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/reactbookmarkapp/static/css/main.b9d6ebbc.chunk.css",
-    "main.js": "/reactbookmarkapp/static/js/main.99e2add7.chunk.js",
-    "main.js.map": "/reactbookmarkapp/static/js/main.99e2add7.chunk.js.map",
+    "main.js": "/reactbookmarkapp/static/js/main.50cd949a.chunk.js",
+    "main.js.map": "/reactbookmarkapp/static/js/main.50cd949a.chunk.js.map",
     "runtime-main.js": "/reactbookmarkapp/static/js/runtime-main.b089b177.js",
     "runtime-main.js.map": "/reactbookmarkapp/static/js/runtime-main.b089b177.js.map",
     "static/js/2.ed23b9cf.chunk.js": "/reactbookmarkapp/static/js/2.ed23b9cf.chunk.js",
     "static/js/2.ed23b9cf.chunk.js.map": "/reactbookmarkapp/static/js/2.ed23b9cf.chunk.js.map",
     "index.html": "/reactbookmarkapp/index.html",
-    "precache-manifest.76bab871aa6fca694ac08e88e272c36f.js": "/reactbookmarkapp/precache-manifest.76bab871aa6fca694ac08e88e272c36f.js",
+    "precache-manifest.37eeeabe1c732b9fcc667077a6f56d9f.js": "/reactbookmarkapp/precache-manifest.37eeeabe1c732b9fcc667077a6f56d9f.js",
     "service-worker.js": "/reactbookmarkapp/service-worker.js",
     "static/css/main.b9d6ebbc.chunk.css.map": "/reactbookmarkapp/static/css/main.b9d6ebbc.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.b089b177.js",
     "static/js/2.ed23b9cf.chunk.js",
     "static/css/main.b9d6ebbc.chunk.css",
-    "static/js/main.99e2add7.chunk.js"
+    "static/js/main.50cd949a.chunk.js"
   ]
 }
