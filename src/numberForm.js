@@ -6,10 +6,12 @@ class NumberForm extends Component {
     return (
       <div className="input">
         <form
+        className="form"
         onSubmit={event =>{
           event.preventDefault()
           let userInput = event.target.input.value
-          return this.props.click(userInput);
+          event.target.input.value = ''
+          return this.props.click(parseInt(userInput));
         }}>
           <label>Between 1-10</label>
             <input 
@@ -17,7 +19,7 @@ class NumberForm extends Component {
               name="input"
               min="1" max="10"
               />
-            <button>button</button>
+            <button>Submit</button>
         </form>
       </div>
     )

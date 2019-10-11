@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import NumberForm from './numberForm'
 import Answer from './answer'
+import './App.css';
 
 
 const randomNumber = Math.floor(Math.random() * 10) + 1;
@@ -14,7 +15,7 @@ class App extends Component {
   }
 
   handleClick = (input) => {
-    console.log(`the user input ${input}`);
+    console.log(input, this.state.number);
     if(this.state.number === input){
       this.setState({
         correct: true
@@ -27,35 +28,19 @@ class App extends Component {
   }
 
   render() {
-
-    
     return (
       <div>
-        <h1>Pick a number</h1>
-        <NumberForm 
-        click={this.handleClick}
-        />
+        <h1 className="title">PICK A NUMBER</h1>
         <Answer 
           status={this.state.correct}
         />
+        <NumberForm 
+        click={this.handleClick}
+        />
+        
       </div>
     )
   }
 }
 
 export default App;
-
-
-// if(input === this.state.number){
-//   return(
-//     <div>
-//       <h3>You are Correct!</h3>
-//     </div>
-//   )
-// }else{
-//   return(
-//     <div>
-//       <h3>Now Quite.</h3>
-//     </div>
-//   )
-// }
