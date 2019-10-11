@@ -10,7 +10,7 @@ export class Answer extends Component {
     }else if(this.props.status === false){
     //this is incorrect
     return ( 
-      <h3 className="wrong">Now Quite.</h3>
+      <h3 className="wrong">Not Quite.</h3>
     )
     }else{
     // unanswered
